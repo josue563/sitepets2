@@ -1,0 +1,115 @@
+body {
+    font-size: arial, sans-serif;
+
+}
+
+header#cabecalho {
+    border-bottom: 2px #606060 solid;
+    height: 150px;
+}
+
+header#cabecalho p {
+    font-size: 20pt;
+    color: rgb(226, 12, 66);
+}
+
+div#interface {
+    width: 900px;
+    background-color: #ffffff;
+    margin: -20px auto 0px auto;
+    
+}
+
+section#corpo {
+    display: block;
+    width: 500px;
+    float: left;
+    padding-right: 10px;
+    margin-top: 0px;
+    padding-right: 15px;
+}
+
+section#corpo h6 {
+    text-align: center;
+    font-size: 10pt;
+}
+
+aside#lateral {
+    display: block;
+    width: 350px;
+    float: right;
+    border-left: 2px solid #606060;
+    background-color: #dddddd;
+    padding: 10px;
+    margin-top: 0px;
+    border-left:;
+
+}
+
+footer#rodape {
+    clear: both;
+    border-top: 2px solid #606060;
+    margin-top: 0px;
+}
+footer#rodape p {
+    text-align: center;
+}
+
+img#gab {
+    widows: 100px;
+}
+
+
+/* formatação do menu */
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: 700px;
+}
+
+nav#menu li {
+    display: inline-block;
+    background-color: #606060;
+    padding: 10px;
+    margin: 2px;
+}
+nav#menu h1 {
+    display: none;
+}
+
+
+/* formatação sobre nos   */
+
+header#topo {
+    margin-bottom: 2px solid #606060;
+    height: 150px;
+}
+
+section#smb {
+    display: block;
+    width: 500px;
+    float: left;
+    padding: 10px;
+    margin: auto 100px auto 100px;
+}
+
+aside#petslogo {
+    display: block;
+    width: 350px;
+    float: right;
+    padding: 10px;
+    margin: auto 150px auto 50px;
+}
+
+footer {
+    clear: both;
+}
+
+
